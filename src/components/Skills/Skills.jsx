@@ -27,8 +27,9 @@ export const Skills = () => {
               text={`${skill.percentage}%`}
               styles={buildStyles({
                 textColor: "white",
-                pathColor: "#4a90e2",
-                trailColor: "#d6d6d6",
+                textSize: 25,
+                pathColor: "#5FBCFF",
+                trailColor: "#19376D",
               })}
             />
             <p className={styles.skillName}>{skill.name}</p>

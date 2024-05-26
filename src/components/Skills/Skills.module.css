@@ -22,10 +22,11 @@
 }
 
 .skillsGrid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 30px;
-  justify-content: center;
+  justify-items: center;
 }
 
 .skillItem {
@@ -37,9 +38,10 @@
 
 .skillName {
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 25px;
   color: var(--color-text);
   text-align: center;
+  font-family: var(--font-roboto);
 }
 
 @media screen and (max-width: 830px) {
@@ -48,6 +50,8 @@
   }
 
   .skillsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     gap: 20px;
   }
 
