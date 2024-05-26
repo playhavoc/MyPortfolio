@@ -9,7 +9,32 @@ export const About = () => {
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
-        <div className={styles.aboutImage}>Text</div>
+        <div className={styles.personalInfo}>
+          <p>
+            <strong>First name:</strong> Linus
+          </p>
+          <p>
+            <strong>Last Name:</strong> Sharp
+          </p>
+          <p>
+            <strong>Age:</strong> 20
+          </p>
+          <p>
+            <strong>Nationality:</strong> British & French
+          </p>
+          <p>
+            <strong>Language:</strong> English, French
+          </p>
+          <p>
+            <strong>Phone:</strong> +44 7763411048
+          </p>
+          <p>
+            <strong>Freelance:</strong> Available
+          </p>
+          <p>
+            <strong>Location:</strong> Nottingham, UK
+          </p>
+        </div>
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("About/cursorIcon.png")} alt="Cursor icon" />
