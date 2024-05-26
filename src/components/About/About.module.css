@@ -25,15 +25,25 @@
   align-items: center;
 }
 
-.aboutImage {
-  width: 35%;
-}
-
 .aboutItems {
   color: var(--color-text);
   display: flex;
   flex-direction: column;
   gap: 50px;
+}
+
+.personalInfo {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15%;
+  font-size: 24px;
+  color: var(--color-text);
+  margin-top: 15px;
+}
+
+.personalInfo p {
+  margin: 1.2rem 0;
+  width: 300px;
 }
 
 .aboutItem {

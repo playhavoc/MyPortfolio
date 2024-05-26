@@ -7,32 +7,32 @@ import { getImageUrl } from "../../utils";
 export const About = () => {
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>About</h2>
+      <h2 className={styles.title}>About me</h2>
       <div className={styles.content}>
         <div className={styles.personalInfo}>
           <p>
-            <strong>First name:</strong> Linus
+            First Name: <strong>Linus</strong>
           </p>
           <p>
-            <strong>Last Name:</strong> Sharp
+            Last Name: <strong>Sharp</strong>
           </p>
           <p>
-            <strong>Age:</strong> 20
+            Age: <strong>20</strong>
           </p>
           <p>
-            <strong>Nationality:</strong> British & French
+            Nationality: <strong>British & French</strong>
           </p>
           <p>
-            <strong>Language:</strong> English, French
+            Language: <strong>English, French</strong>
           </p>
           <p>
-            <strong>Phone:</strong> +44 7763411048
+            Phone: <strong>+44 7763411048</strong>
           </p>
           <p>
-            <strong>Freelance:</strong> Available
+            Freelance: <strong>Available</strong>
           </p>
           <p>
-            <strong>Location:</strong> Nottingham, UK
+            Location: <strong>Nottingham, UK</strong>
           </p>
         </div>
         <ul className={styles.aboutItems}>
