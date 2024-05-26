@@ -23,10 +23,13 @@
 }
 
 .skills {
-  width: 45%;
-  display: flex;
-  flex-wrap: wrap;
+  width: 40%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   gap: 37px;
+  margin-right: 7%;
+  margin-top: 2%;
 }
 
 .skill {
@@ -90,6 +93,7 @@
 .historyItemDetails p {
   font-size: 20px;
   font-weight: 300;
+  width: 500px;
 }
 
 .historyItemDetails ul {
@@ -111,6 +115,8 @@
     width: 100%;
     flex-direction: row;
     justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
   }
 
   .history {
