@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Flutter",
+    "imageSrc": "Skills/flutter.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "Skills/python.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "Skills/react.png"
+  },
+  {
+    "title": "PostgresSQL",
+    "imageSrc": "Skills/SQL.png"
+  },
+  {
+    "title": "C++",
+    "imageSrc": "Skills/cpp.png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "Skills/java.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "Skills/figma.png"
+  },
+  {
+    "title": "Docker",
+    "imageSrc": "Skills/docker.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "Skills/git.png"
+  }
+]

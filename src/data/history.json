@@ -1,0 +1,32 @@
+[
+  {
+    "role": "Team Leader",
+    "organisation": "UNiDAYSxUoN",
+    "startDate": "Sept, 2023",
+    "endDate": "June, 2024",
+    "experiences": [
+      "Created an app using flutter",
+      "Lead using current agile methods"
+    ],
+    "imageSrc": "History/unidays.png"
+  },
+  {
+    "role": "Project",
+    "organisation": "A-level",
+    "startDate": "Sept, 2021",
+    "endDate": "May, 2022",
+    "experiences": [
+      "Created my own crossword algorithm",
+      "My first coding project"
+    ],
+    "imageSrc": "History/puzzle.png"
+  },
+  {
+    "role": "Intern",
+    "organisation": "Aviva",
+    "startDate": "Apr, 2019",
+    "endDate": "Apr, 2019",
+    "experiences": ["First time in an IT department", "Built my first website"],
+    "imageSrc": "History/aviva.png"
+  }
+]
