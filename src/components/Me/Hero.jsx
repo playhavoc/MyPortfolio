@@ -13,7 +13,7 @@ export const Hero = () => {
           I’m currently a student at the University of Nottingham, looking to
           get into software development
         </p>
-        <a href="mailto:myemail@email.com" className={styles.contactBtn}>
+        <a href="mailto:linus.sharp@gmail.com" className={styles.contactBtn}>
           Contact Me
         </a>
       </div>
