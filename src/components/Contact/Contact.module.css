@@ -59,14 +59,17 @@
   }
 
   .links {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .link {
+    flex-direction: column;
     align-items: center;
   }
 
   .words {
     display: none;
-  }
-
-  .images {
-    align-items: center;
   }
 }
