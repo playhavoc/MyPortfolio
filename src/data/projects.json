@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Reverse Captcha - UNiDAYS",
+    "imageSrc": "Projects/projectRC.png",
+    "description": "Lead a team in developing a social media app in collaboration with UNiDAYS",
+    "skills": ["Flutter", "Python", "SQL"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Crossword Game",
+    "imageSrc": "Projects/projectCW.png",
+    "description": "Learned to code by creating a tool for teachers to create crosswords for students!",
+    "skills": ["Python", "Pygame"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Portfolio Website",
+    "imageSrc": "Projects/projectPF.png",
+    "description": "Learned the basics of react by building this website!",
+    "skills": ["React"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]
