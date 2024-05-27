@@ -26,9 +26,6 @@ export const About = () => {
             Language: <strong>English, French</strong>
           </p>
           <p>
-            Phone: <strong>+44 7763411048</strong>
-          </p>
-          <p>
             Freelance: <strong>Available</strong>
           </p>
           <p>
