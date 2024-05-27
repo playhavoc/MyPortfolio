@@ -82,7 +82,6 @@ body {
   width: 50vw;
   height: 50vw;
   min-width: 350px;
-  min-width: 350px;
   top: -128px;
   left: -10vw;
   border-radius: 764px;
@@ -96,7 +95,6 @@ body {
   width: 70vw;
   height: 50vw;
   min-width: 350px;
-  min-width: 250px;
   top: 246px;
   right: -25vw;
   border-radius: 764px;
@@ -108,9 +106,38 @@ body {
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
   }
 
   .content {
     align-items: center;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .contactBtn {
+    font-size: 24px;
+    padding: 12px 20px;
+  }
+
+  .heroImg {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .topBlur,
+  .bottomBlur {
+    display: none;
   }
 }
