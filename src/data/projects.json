@@ -5,7 +5,7 @@
     "description": "Lead a team in developing a social media app in collaboration with UNiDAYS",
     "skills": ["Flutter", "Python", "SQL"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://projects.cs.nott.ac.uk/comp2002/2023-2024/team35_project"
   },
   {
     "title": "Crossword Game",
@@ -13,7 +13,7 @@
     "description": "Learned to code by creating a tool for teachers to create crosswords for students!",
     "skills": ["Python", "Pygame"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/playhavoc/crossword-Generator"
   },
   {
     "title": "Portfolio Website",
@@ -21,6 +21,6 @@
     "description": "Learned the basics of react by building this website!",
     "skills": ["React"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/playhavoc/MyPortfolio"
   }
 ]
