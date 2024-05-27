@@ -81,6 +81,8 @@
     background-color: transparent;
     padding-left: 0;
     padding-right: 0;
+    align-items: center;
+    text-align: center;
   }
 
   .content {
@@ -98,5 +100,10 @@
   .aboutItem {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .personalInfo {
+    align-items: center;
+    text-align: center;
   }
 }
