@@ -17,6 +17,7 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  text-align: center; /* Center the title */
 }
 
 .content {
@@ -79,14 +80,20 @@
 @media screen and (max-width: 830px) {
   .container {
     background-color: transparent;
-    padding-left: 0;
-    padding-right: 0;
-    align-items: center;
+    padding: 20px; /* Adjust padding for smaller screens */
+    margin-top: 50px; /* Adjust margin for better positioning */
+    margin-left: 5%; /* Adjust margins for centering */
+    margin-right: 5%;
     text-align: center;
+  }
+
+  .title {
+    font-size: 28px; /* Adjust font size for smaller screens */
   }
 
   .content {
     flex-direction: column;
+    align-items: center;
   }
 
   .aboutImage {
@@ -95,15 +102,23 @@
 
   .aboutItems {
     margin-top: 29px;
+    align-items: center; /* Center the items */
   }
 
   .aboutItem {
     padding-left: 0;
     padding-right: 0;
+    flex-direction: column;
+    align-items: center; /* Center the individual items */
   }
 
   .personalInfo {
+    margin-right: 0; /* Remove right margin for centering */
     align-items: center;
     text-align: center;
+  }
+
+  .personalInfo p {
+    width: auto; /* Allow paragraphs to take full width */
   }
 }
