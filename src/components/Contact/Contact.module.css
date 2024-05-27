@@ -61,4 +61,12 @@
   .links {
     align-items: center;
   }
+
+  .words {
+    display: none;
+  }
+
+  .images {
+    align-items: center;
+  }
 }

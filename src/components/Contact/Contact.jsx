@@ -13,21 +13,37 @@ export const Contact = () => {
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src={getImageUrl("Contact/emailIcon.png")} alt="Email icon" />
-          <a href="mailto:linuscolesharp@gmail.com">linuscolesharp@gmail.com</a>
+          <img
+            className={styles.images}
+            src={getImageUrl("Contact/emailIcon.png")}
+            alt="Email icon"
+          />
+          <a className={styles.words} href="mailto:linuscolesharp@gmail.com">
+            linuscolesharp@gmail.com
+          </a>
         </li>
         <li className={styles.link}>
           <img
+            className={styles.images}
             src={getImageUrl("Contact/linkedinIcon.png")}
             alt="LinkedIn icon"
           />
-          <a href="https://www.linkedin.com/in/linus-sharp-0a827421b/">
+          <a
+            className={styles.words}
+            href="https://www.linkedin.com/in/linus-sharp-0a827421b/"
+          >
             linkedin.com/linus-sharp
           </a>
         </li>
         <li className={styles.link}>
-          <img src={getImageUrl("Contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://github.com/playhavoc">github.com/playhavoc</a>
+          <img
+            className={styles.images}
+            src={getImageUrl("Contact/githubIcon.png")}
+            alt="Github icon"
+          />
+          <a className={styles.words} href="https://github.com/playhavoc">
+            github.com/playhavoc
+          </a>
         </li>
       </ul>
     </footer>
