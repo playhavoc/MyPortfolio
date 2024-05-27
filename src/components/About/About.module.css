@@ -109,7 +109,13 @@
     padding-left: 0;
     padding-right: 0;
     flex-direction: column;
-    align-items: center; /* Center the individual items */
+    align-items: center;
+    margin-bottom: -15px; /* Center the individual items */
+  }
+
+  .aboutItemText h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .personalInfo {
